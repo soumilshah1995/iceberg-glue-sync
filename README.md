@@ -44,3 +44,5 @@ databases:
 python run-sync.py --config /Users/soumilshah/IdeaProjects/emr-labs/glue-iceberg-sync/iceberg_sync_config.yaml
 
 ```
+![image](https://github.com/user-attachments/assets/b7a0f042-806b-4a66-b86a-04af62de2c5e)
+
