@@ -1,0 +1,15 @@
+catalog_name: mydatacatalog
+aws_account_id: "<Accountid>"
+aws_region: us-east-1
+
+packages:
+  - "com.amazonaws:aws-java-sdk-bundle:1.12.661"
+  - "org.apache.hadoop:hadoop-aws:3.3.4"
+  - "software.amazon.awssdk:bundle:2.29.38"
+  - "org.apache.iceberg:iceberg-spark-runtime-3.4_2.12:1.6.1"
+
+databases:
+  - name: iceberg_db
+    tables:
+      - name: customers
+        location: s3://<pathto iceberg>
