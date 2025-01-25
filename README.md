@@ -9,13 +9,7 @@ Iceberg-glue-sync is a Python package that simplifies the process of synchronizi
 - Support for custom AWS configurations
 - Easy-to-use command-line interface
 
-## Installation
 
-Install iceberg-glue-sync using pip:
-```
-pip install iceberg-glue-sync
-
-```
 
 ## Usage
 
